@@ -1,0 +1,50 @@
+h1{
+    background-color: yellow;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.category{
+    margin-bottom: 20px;
+}
+.item{
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.paginationButtons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 10px;
+    background-color: azure;
+    width: 70px;
+    margin: auto;
+    cursor: pointer;
+}
+.nextButton{
+    background-color: rgb(95, 126, 182);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.previousButton{
+    background-color: rgb(95, 126, 182);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.activeButton{
+    background-color: rgb(95, 126, 182);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 5px;
+    cursor: pointer;
+}
